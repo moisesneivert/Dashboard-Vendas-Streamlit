@@ -1,4 +1,8 @@
-# Dashboard de Vendas com Pandas + Streamlit
+> Este projeto é a versão inicial/lite do dashboard de vendas.
+> A versão mais completa está disponível em:
+> https://github.com/moisesneivert/Dashboard-Vendas-Pro
+
+# Dashboard de Vendas com Streamlit — Versão Inicial
 
 Projeto de análise de dados e criação de dashboards.
 
