@@ -1,90 +1,49 @@
-> Este projeto é a versão inicial/lite do dashboard de vendas.
-> A versão mais completa está disponível em:
+# Dashboard de Vendas Lite — Pandas + Streamlit
+
+Este projeto é uma versão inicial de um dashboard de vendas desenvolvido com **Python**, **Pandas** e **Streamlit**.
+
+O objetivo é demonstrar fundamentos de análise de dados aplicados a um cenário comercial, incluindo upload de base CSV, tratamento de dados, filtros interativos, indicadores de desempenho, visualização gráfica e exportação de dados filtrados.
+
+> Este projeto representa a versão inicial/lite do dashboard.  
+> A versão profissional e mais completa está disponível em:  
 > https://github.com/moisesneivert/Dashboard-Vendas-Pro
 
-# Dashboard de Vendas com Streamlit — Versão Inicial
+---
 
-Projeto de análise de dados e criação de dashboards.
+## Visão geral
 
-## Objetivo
+O **Dashboard de Vendas Lite** permite carregar uma base de vendas em formato CSV e analisar rapidamente os principais indicadores comerciais.
 
-Criar um dashboard comercial com:
+A aplicação foi construída para simular uma ferramenta simples de apoio à análise de vendas, com foco em clareza visual, facilidade de uso e aplicação prática de análise de dados com Python.
 
-- upload de CSV;
-- filtros por período, região, estado, categoria, produto, vendedor, canal e status;
-- KPIs principais;
-- gráficos de faturamento;
-- tabelas analíticas;
-- exportação da base filtrada.
+---
 
-## Tecnologias
+## Funcionalidades
+
+- Upload de arquivo CSV
+- Leitura e tratamento dos dados com Pandas
+- Filtros interativos por período, categoria, produto ou região
+- Indicadores principais de vendas
+- Visualização de gráficos no Streamlit
+- Tabela com dados filtrados
+- Exportação da base filtrada
+- Interface simples e objetiva
+
+---
+
+## Tecnologias utilizadas
 
 - Python
 - Pandas
 - Streamlit
 
+---
+
 ## Estrutura do projeto
 
 ```text
-dashboard_vendas_streamlit/
+Dashboard-Vendas-Streamlit/
 ├── app.py
-├── vendas_exemplo.csv
 ├── requirements.txt
-└── README.md
-```
-
-## Como rodar
-
-1. Crie um ambiente virtual:
-
-```bash
-python -m venv .venv
-```
-
-2. Ative o ambiente virtual:
-
-No Windows:
-
-```bash
-.venv\Scripts\activate
-```
-
-No macOS/Linux:
-
-```bash
-source .venv/bin/activate
-```
-
-3. Instale as dependências:
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Execute o dashboard:
-
-```bash
-streamlit run app.py
-```
-
-## Colunas esperadas no CSV
-
-A base enviada deve conter:
-
-```text
-data
-pedido_id
-cliente
-cidade
-estado
-regiao
-produto
-categoria
-vendedor
-canal_venda
-quantidade
-preco_unitario
-custo_unitario
-status_pagamento
-```
-
+├── README.md
+└── .gitignore
